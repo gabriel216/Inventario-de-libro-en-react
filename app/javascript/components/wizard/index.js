@@ -94,7 +94,7 @@ import EditBook from './../edit_book'
             };
             let books = [...this.state.books, newBook];
             this.setState( {books} );
-          } else {
+          }   else {
             alert('Debe rellenar todos los campos del formulario para agregar el libro ')
             return false
             }
