@@ -1,0 +1,5 @@
+.container
+	.row
+		.col-xs-12
+			%h1 Inventario de Libros
+			= react_component('wizard', { books: @books, token: form_authenticity_token})
